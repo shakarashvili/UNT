@@ -65,7 +65,7 @@ public class ActionClass {
              .moveToElement(driver.findElement(By.xpath("//a[@href=\"/records/\"]")))
              .moveToElement(driver.findElement(By.xpath("//a[@href=\"/records/apply-to-set-or-break-a-record/\"]")))
              .click(driver.findElement(By.xpath("(//a[@href=\"/records/the-application-process/standard-applications\"])[1]")))
-             .build().perform();
+             .build().perform();////
              ////a[@href="/records/"] *//////
  }
     @Test
