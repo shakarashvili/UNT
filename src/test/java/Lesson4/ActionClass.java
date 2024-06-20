@@ -66,7 +66,7 @@ public class ActionClass {
              .moveToElement(driver.findElement(By.xpath("//a[@href=\"/records/apply-to-set-or-break-a-record/\"]")))
              .click(driver.findElement(By.xpath("(//a[@href=\"/records/the-application-process/standard-applications\"])[1]")))
              .build().perform();
-             ////a[@href="/records/"] */
+             ////a[@href="/records/"] *//////
  }
     @Test
     public void keyUpAndDownTest() throws InterruptedException {
