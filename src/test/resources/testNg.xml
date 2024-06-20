@@ -1,0 +1,20 @@
+<suite name="MyTestSuite">
+    <!-- პარამეტრების განსაზღვრა, რომელთა გამოყენებაც შეგიძლიათ ტესტებში -->
+    <parameter name="baseUrl" value="http://example.com" />
+    <parameter name="browser" value="chrome" />
+
+    <!-- ტესტების ჯგუფის განსაზღვრა -->
+    <test name="MyTest">
+        <!-- პარამეტრების დამატებითი განსაზღვრა კონკრეტული ტესტისთვის -->
+
+
+        <!-- კლასების განსაზღვრა, რომელთა ტესტებიც უნდა შესრულდეს -->
+        <classes>
+            <class name="Lesson3.Annotation" />
+
+        </classes>
+    </test>
+
+    <!-- მეორე ტესტის განსაზღვრა -->
+
+</suite>
